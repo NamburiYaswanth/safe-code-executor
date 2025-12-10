@@ -130,7 +130,7 @@ When enabled, this prevents the script from writing files inside the container.
 Every container runs with --rm, which removes it after execution.
 This keeps the system clean and avoids unnecessary storage usage.
 
-easy -level
+easy -level: in the easy level it check the both javascript and the python .
 <img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/1091bc22-a389-4e95-9761-35616e9d78a7" />
 <img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/c5eb00c7-cd0a-446a-9483-1d91cbf0cc5a" />
 
