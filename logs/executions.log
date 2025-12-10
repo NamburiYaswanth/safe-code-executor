@@ -1,0 +1,320 @@
+
+----------------------------
+TIME: 2025-12-10 01:03:09
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+while True:
+    pass
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:04:54
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+x = 'A' * 1000000000
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:07:26
+STATUS: SUCCESS
+RETURN CODE: 0
+
+USER CODE:
+with open('/etc/passwd') as f:
+    print(f.read())
+
+OUTPUT:
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:08:31
+STATUS: SUCCESS
+RETURN CODE: 0
+
+USER CODE:
+with open('/tmp/test.txt', 'w') as f:
+    f.write('hacked!')
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:10:17
+STATUS: PYTHON ERROR
+RETURN CODE: 1
+
+USER CODE:
+with open('/tmp/test.txt', 'w') as f:
+    f.write('hacked!')
+
+OUTPUT:
+
+
+ERROR:
+Traceback (most recent call last):
+  File "/app/temp_8b9ecf35e30a43e0b836873ba3ea0cec.py", line 1, in <module>
+    with open('/tmp/test.txt', 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 30] Read-only file system: '/tmp/test.txt'
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:19:21
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+x = "a" * 1000000000
+
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:19:23
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+x = "a" * 1000000000
+
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:19:23
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+x = "a" * 1000000000
+
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:19:43
+STATUS: PYTHON ERROR
+RETURN CODE: 1
+
+USER CODE:
+print(5/0)
+
+
+OUTPUT:
+
+
+ERROR:
+Traceback (most recent call last):
+  File "/app/temp_6c8944eb010c4caf81c719bd5cbac309.py", line 1, in <module>
+    print(5/0)
+          ~^~
+ZeroDivisionError: division by zero
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:20:29
+STATUS: PYTHON ERROR
+RETURN CODE: 1
+
+USER CODE:
+import requests
+requests.get("http://google.com")
+
+
+OUTPUT:
+
+
+ERROR:
+Traceback (most recent call last):
+  File "/app/temp_9cff5d8d55e441c29dbf806ac1a5980b.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:20:30
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+while True:
+    pass
+
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:20:34
+STATUS: PYTHON ERROR
+RETURN CODE: 1
+
+USER CODE:
+import requests
+requests.get("http://google.com")
+
+
+OUTPUT:
+
+
+ERROR:
+Traceback (most recent call last):
+  File "/app/temp_a58c38f8f5e84ca28cbe507843cd2a7f.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:20:43
+STATUS: EXECUTION STOPPED (Killed by Docker)
+RETURN CODE: 137
+
+USER CODE:
+while True:
+    pass
+
+
+OUTPUT:
+
+
+ERROR:
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 01:20:51
+STATUS: PYTHON ERROR
+RETURN CODE: 1
+
+USER CODE:
+import requests
+requests.get("http://google.com")
+
+
+OUTPUT:
+
+
+ERROR:
+Traceback (most recent call last):
+  File "/app/temp_d9960b928ac347b0b3c095f1bb738fc1.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 10:56:31
+STATUS: SUCCESS
+RETURN CODE: 0
+
+USER CODE:
+console.log('Hello from JS!')
+
+OUTPUT:
+Hello from JS!
+
+
+ERROR:
+Unable to find image 'node:18-slim' locally
+18-slim: Pulling from library/node
+b98d3ae1ab80: Pulling fs layer
+c768ab8cba73: Pulling fs layer
+61320b01ae5e: Pulling fs layer
+b1831021e35a: Pulling fs layer
+8c994cf49dd1: Pulling fs layer
+b98d3ae1ab80: Download complete
+8c994cf49dd1: Download complete
+c768ab8cba73: Download complete
+61320b01ae5e: Download complete
+61320b01ae5e: Pull complete
+b1831021e35a: Download complete
+b98d3ae1ab80: Pull complete
+b1831021e35a: Pull complete
+c768ab8cba73: Pull complete
+8c994cf49dd1: Pull complete
+Digest: sha256:f9ab18e354e6855ae56ef2b290dd225c1e51a564f87584b9bd21dd651838830e
+Status: Downloaded newer image for node:18-slim
+
+----------------------------
+
+----------------------------
+TIME: 2025-12-10 11:10:57
+STATUS: SUCCESS
+RETURN CODE: 0
+
+USER CODE:
+print('Hello from Python!')
+
+OUTPUT:
+Hello from Python!
+
+
+ERROR:
+
+----------------------------
