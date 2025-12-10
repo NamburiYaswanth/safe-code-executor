@@ -110,6 +110,12 @@ requests.get("http://example.com")
 
 <img width="1920" height="1008" alt="Screenshot 2025-12-09 145237" src="https://github.com/user-attachments/assets/70542933-b562-41e1-9f17-a671e82e30c3" />
 
+<img width="1116" height="734" alt="image" src="https://github.com/user-attachments/assets/42f0c131-114a-4b2a-98bb-aecefb0047ae" />
+
+<img width="1031" height="466" alt="image" src="https://github.com/user-attachments/assets/0e9deb50-7026-4ce4-86ac-53d08f6395a1" />
+
+
+
 
 
 This keeps the environment isolated from the internet.
@@ -118,10 +124,22 @@ This keeps the environment isolated from the internet.
 
 When enabled, this prevents the script from writing files inside the container.
 
+
 5. Automatic Cleanup
 
 Every container runs with --rm, which removes it after execution.
 This keeps the system clean and avoids unnecessary storage usage.
+
+easy -level
+<img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/1091bc22-a389-4e95-9761-35616e9d78a7" />
+<img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/c5eb00c7-cd0a-446a-9483-1d91cbf0cc5a" />
+
+mid-level: i tested with the zip file the user will give the zip file by using the postman.
+<img width="1039" height="526" alt="image" src="https://github.com/user-attachments/assets/8ad687d9-ca01-4fa4-9bde-71d7428994ea" />
+
+
+
+
 
 What I Learned
 
