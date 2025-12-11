@@ -91,7 +91,7 @@ Blocks programs that consume excessive memory, for example:
 
 x = "a" * 1000000000
 
-<img width="795" height="523" alt="image" src="https://github.com/user-attachments/assets/095597e7-b2bb-49e7-9b0e-33325a2be263" />
+<img width="1920" height="1008" alt="Screenshot 2025-12-10 160205 (1)" src="https://github.com/user-attachments/assets/fe0d256b-abda-43ba-8519-bdfe4d71ed4d" />
 
 <img width="1126" height="225" alt="image" src="https://github.com/user-attachments/assets/c0155813-e727-41db-9cbd-ebebde1fd2b5" />
 
