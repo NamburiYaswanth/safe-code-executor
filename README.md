@@ -132,7 +132,7 @@ This keeps the system clean and avoids unnecessary storage usage.
 
 easy -level: in the easy level it check the both javascript and the python .
 <img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/1091bc22-a389-4e95-9761-35616e9d78a7" />
-<img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/c5eb00c7-cd0a-446a-9483-1d91cbf0cc5a" />
+<img width="612" height="388" alt="image" src="https://github.com/user-attachments/assets/50d7723f-e1db-4bfd-a9b5-97d79496239e" />
 
 mid-level: i tested with the zip file the user will give the zip file by using the postman.
 <img width="1039" height="526" alt="image" src="https://github.com/user-attachments/assets/8ad687d9-ca01-4fa4-9bde-71d7428994ea" />
